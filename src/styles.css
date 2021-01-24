@@ -1,0 +1,192 @@
+video.background-vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  filter: grayscale(100%);
+  opacity: 60%;
+}
+
+body {
+  background-color: rgba(108, 110, 112, 0.85);
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.row2 {
+  padding-top: 30px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+#temp-col {
+  justify-content: end !important;
+}
+
+.v-align {
+  height: 20%;
+}
+
+.v-align2,
+.v-align3 {
+  height: 35%;
+}
+
+.row3 {
+  padding-top: 50px;
+}
+
+input#city-input.form-control.city-search:focus {
+  outline: none !important;
+  border: 1px solid black !important;
+  box-shadow: 0 0 1px black !important;
+  height: 43px !important;
+}
+
+input#city-input.form-control.city-search {
+  height: 43px !important;
+}
+
+#current-weather-img {
+  max-width: 100% !;
+}
+
+#day-1-img,
+#day-2-img,
+#day-3-img,
+#day-4-img,
+#day-5-img {
+  font-size: 80px;
+}
+
+.row2a,
+.row2b,
+.row2c {
+  padding-left: 20px;
+}
+
+.card {
+  background-color: rgba(108, 110, 112, 0.85) !important;
+  min-width: unset !important;
+}
+
+button.btn-primary,
+label.btn-secondary {
+  color: Black;
+  background-color: #ced4da;
+  border: 1px solid black;
+  height: 43px !important;
+}
+
+button.btn-primary:hover,
+label.btn-secondary:hover {
+  color: Black;
+  background-color: transparent;
+  border: 1px solid black;
+  height: 43px !important;
+}
+
+button.btn-primary:focus {
+  color: Black !important;
+  background-color: transparent !important;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  height: 43px !important;
+}
+
+h1 {
+  color: black;
+}
+
+div.row-date-time {
+  padding-top: 0px;
+}
+
+h2.date-time {
+  font-size: 16px;
+  color: black;
+}
+
+il.weather-details {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+i {
+  font-size: 140px;
+  color: white;
+}
+
+.weather-list {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+}
+
+div.col-sm-3.weather-icon-current {
+  padding-left: 30px !important;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  max-width: 300px !important;
+}
+
+.card-img-top {
+  height: 75px;
+  max-width: 90px;
+  opacity: 80%;
+  filter: grayscale(10%);
+}
+
+.card-body {
+  display: block;
+  margin: 0 auto;
+}
+
+h5,
+p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fa-location-arrow {
+  display: inline-block;
+  height: 24px;
+  color: black;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 0;
+}
+
+.open-source-code {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: system-ui;
+  margin: 20px;
+}
+
+a {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+.col-sm-2 {
+  text-align: right;
+  padding-right: 30px !important;
+}
